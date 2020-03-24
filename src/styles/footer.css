@@ -1,0 +1,27 @@
+footer{
+    display: flex;
+    position: fixed;
+     -webkit-box-pack: center;
+     justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(2, 12, 27);
+    color: rgb(136, 146, 176);
+    text-align: center;
+    height: auto;
+    min-height: 70px;
+    padding: 20px;
+    bottom: 0;
+    width: 100%;
+}
+
+footer a{
+    color: rgb(136, 146, 176);
+
+}
+
+footer a:hover{
+    text-decoration: none;
+    color: rgb(100, 255, 218);
+}

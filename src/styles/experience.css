@@ -1,0 +1,50 @@
+.experienceSection {
+  position: relative;
+  max-width: 1000px;
+  padding: 100px 0px;
+  margin: 0px auto;
+}
+
+.experienceText {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  white-space: nowrap;
+  color: rgba(204, 214, 246);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px 0 40px;
+}
+
+.experienceText::before {
+  counter-increment: section 2;
+  content: "02.";
+  margin-right: 10px;
+  color: rgb(100, 255, 218);
+  font-size: 22px;
+}
+
+.ant-tabs-tab{
+  height: 42px;
+  color: rgb(96, 106, 134);
+  font-size: 21px;
+}
+
+.ant-tabs-nav .ant-tabs-tab-active {
+  color: rgb(100, 255, 218);
+  font-weight: 500;
+}
+.ant-tabs-nav .ant-tabs-tab:hover{
+  color: rgb(100, 255, 218);
+
+}
+
+.ant-tabs-ink-bar{
+  background-color: rgb(100, 255, 218);
+}
+
+.ant-tabs-tabpane-active{
+  color: rgb(96, 106, 134);
+  font-size: 21px;
+}

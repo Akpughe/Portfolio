@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Amatic+SC|Josefin+Slab|Source+Sans+Pro:300,400,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Poiret+One&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+
+* {
+  font-family: "Montserrat", sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+body {
+  background-color: rgb(10, 25, 47) !important;
+  height: 100%;
+}
+
+main {
+  width: 100%;
+  max-width: 1380px;
+  min-width: 768px;
+  /* min-height: 100vh; */
+  counter-reset: section 0;
+  /* margin: 0px auto;  */
+}

@@ -1,0 +1,41 @@
+.contactSection {
+    position: relative;
+    max-width: 1000px;
+    padding: 100px 0px;
+    margin: 0px auto;
+    text-align: center;
+  }
+  
+  .contactText {
+    /* display: flex; */
+    /* width: 100%; */
+    align-items: center;
+    white-space: nowrap;
+    color:  rgb(100, 255, 218);;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin: 10px 0 40px;
+    text-align: center;
+  }
+  
+  .contactText::before {
+    counter-increment: section 4;
+    content: "04.";
+    margin-right: 10px;
+    color: rgb(100, 255, 218);
+    font-size: 22px;
+  }
+
+  .text2{
+    font-size: 60px;
+    margin: 0px 0px 20px;
+    color: white;
+    font-weight: 600;
+  }
+  p{
+      font-size: 18px;
+      color: white;
+    max-width: 600px;
+    margin: 0px auto 100px;
+  }

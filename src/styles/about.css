@@ -1,0 +1,101 @@
+.aboutSection {
+  max-width: 1000px;
+  position: relative;
+  margin: 0px auto;
+  padding: 100px 0px;
+}
+
+.aboutText {
+  display: flex;
+  /* width: 100%; */
+  align-items: center;
+  white-space: nowrap;
+  color: rgba(204, 214, 246);
+  font-size: 32px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 10px 0 40px;
+}
+
+.aboutText::before {
+  counter-increment: section 1;
+  content: "01.";
+  margin-right: 10px;
+  color: rgb(100, 255, 218);
+  font-size: 22px;
+}
+
+.aboutText::after {
+  content: "";
+  display: block;
+  position: relative;
+  top: -5px;
+  margin-left: 20px;
+  height: 1px;
+  width: 200px;
+  color: rgb(204, 214, 246);
+}
+.aboutContent {
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: flex-start;
+}
+.textContent {
+  width: 60%;
+  max-width: 480px;
+  display: block;
+}
+
+p {
+  margin: 0px 0px 15px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+.paragraphText {
+  color: rgb(204, 214, 246);
+  font-size: 20px;
+  color: rgb(136, 146, 176);;
+  
+}
+
+span {
+  color: rgb(100, 255, 218);
+}
+
+.aboutList{
+    display: grid;
+    grid-template-columns: repeat(2, minmax(140px, 200px));
+    overflow: hidden;
+    padding: 0px;
+    margin: 20px 0px 0px;
+    list-style: none;
+}
+
+.aboutList li{
+    position: relative;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    color: rgb(136, 146, 176);
+    font-size: 18px;
+}
+.aboutList li::before{
+    content: "▹";
+    position: absolute;
+    left: 0px;
+    color: rgb(100, 255, 218);
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.pictureContent{
+    position: relative;
+    width: 40%;
+    max-width: 300px;
+    margin-left: 60px;
+}
